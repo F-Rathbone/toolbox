@@ -10,6 +10,22 @@ import datetime
 pd.set_option('display.width', 200)
 
 
+def speed(distance, time):
+    return distance/time
+
+def fizzbuzz(n):
+
+    for x in range (n):
+        if x%3==0 and x%5==0:
+            print("fizz buzz")
+        elif x%3==0:
+            print('fizz')
+        elif x%5==0:
+            print('buzz')
+        else:
+            print (x)
+
+
 def clean_data(data):
     """ clean data
     """

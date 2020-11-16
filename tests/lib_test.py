@@ -17,3 +17,58 @@ def test_clean_data():
     assert df.shape == (999, 142)
     out = clean_data(df)
     assert out.shape == (985, 119)
+
+def test_fizzbuzz():
+    assert fizzbuzz(51) == fizz buzz
+1
+2
+fizz
+4
+buzz
+fizz
+7
+8
+fizz
+buzz
+11
+fizz
+13
+14
+fizz buzz
+16
+17
+fizz
+19
+buzz
+fizz
+22
+23
+fizz
+buzz
+26
+fizz
+28
+29
+fizz buzz
+31
+32
+fizz
+34
+buzz
+fizz
+37
+38
+fizz
+buzz
+41
+fizz
+43
+44
+fizz buzz
+46
+47
+fizz
+49
+buzz
+
+
